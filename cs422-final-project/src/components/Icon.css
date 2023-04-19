@@ -1,0 +1,46 @@
+.icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .icon:hover .search-area circle {
+    stroke: #4525f2;
+  }
+  
+  .icon:hover .search-line {
+    stroke: #cfcfcf;
+  }
+  
+  .search-area {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  
+  .search-area circle {
+    fill: #fcfcfc;
+    stroke: #1c2126;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.2s ease-in-out;
+  }
+  
+  .search-line {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 8px;
+    height: 8px;
+    fill: none;
+    stroke: #1c2126;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform: translate(-1px, -1px) rotate(45deg);
+    transition: stroke 0.2s ease-in-out;
+  }
+  

@@ -1,0 +1,30 @@
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .button:hover .area {
+    opacity: 0.8;
+  }
+  
+  .area {
+    width: 144px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #4525f2;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  }
+  

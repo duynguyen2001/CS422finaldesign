@@ -1,0 +1,47 @@
+.search-bar-component {
+    position: relative;
+    display: inline-block;
+    width: 639px;
+    height: 139px;
+  }
+  
+  .search-input {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    position: absolute;
+    left: 560px;
+    top: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-bar-component {
+    margin-top: -100px;
+    margin-left: 250px; /* Add this line to move the search bar to the right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  

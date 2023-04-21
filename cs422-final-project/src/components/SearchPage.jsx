@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from './Header';
+import HeaderComponent from './HeaderComponent';
 import ExpertiseFilter from './ExpertiseFilter';
 import "./SearchPage.css";
 
 function SearchPage() {
   return (
     <div className="search-page">
-      <Header />
+      {/* <Header /> */}
+      <HeaderComponent />
       <div className="search-container">
         <div className="search-filter-container">
           <ExpertiseFilter className="search-filter" />

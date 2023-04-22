@@ -1,0 +1,22 @@
+.scroll-bar-container {
+    width: 63px;
+    height: 550px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+  }
+  
+  .scroll-bar-track {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .scroll-bar-active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #3e21de;
+  }
+  

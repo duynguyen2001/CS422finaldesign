@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import HeaderComponent from './HeaderComponent';
-
+import FooterStrip from './FooterComponent';
 import TinnCannLogo from './TinnCannLogo';
 import SearchBarComponent from './SearchBarComponent.jsx';
 import FilterComponent from './FilterComponent';
@@ -58,7 +58,11 @@ function SearchPage() {
             <ScrollableScrollBar activeWidth={50} height={500} />
           </div>
       </div>
+      <div className="footer-strip">
+        <FooterStrip />
+      </div>
     </div>
+    
   );
 }
 

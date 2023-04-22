@@ -3,6 +3,7 @@
     display: inline-block;
     width: 639px;
     height: 139px;
+    transition: border-color 0.2s;
   }
   
   .search-input {
@@ -31,7 +32,7 @@
   }
   
   .search-button:hover {
-    background-color: #45a049;
+    background-color: #6045a0;
   }
   
   .search-bar-component {

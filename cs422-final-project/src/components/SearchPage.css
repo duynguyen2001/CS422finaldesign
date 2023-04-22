@@ -39,4 +39,16 @@
     margin-top: 70px; /* Adjust this value to create the desired space */
   }
 
-  
+
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.person-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

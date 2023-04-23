@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeaderComponent.css";
+import "./HeaderComponent.css";
 
 const TabItem = ({ label, onClick }) => (
   <div className="tab-item" onClick={onClick}>
@@ -16,8 +17,10 @@ const Button = ({ label, onClick }) => (
 const handleTabClick = (label) => {
   console.log(`${label} tab clicked`);
   if (label === "Home") {
-    onHomeClick();
+    // FIXME, add actuall click listener
   }
+}
+
 
 const HeaderComponent = () => {
   const handleTabClick = (label) => {

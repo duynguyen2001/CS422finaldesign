@@ -1,0 +1,84 @@
+.my-component {
+    width: 300px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .card {
+    width: 240px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 16px 32px 0 rgba(0, 0, 0, 0.102);
+    position: relative;
+  }
+  
+  .mark {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: #ccc;
+    position: absolute;
+    top: 38px;
+    left: 40px; /* Moved to the left */
+  }
+  
+  .info {
+    position: absolute;
+    top: 210px;
+    left: 65px; /* Moved to the left */
+    text-align: center;
+  }
+  
+  .info h2,
+  .info h3 {
+    font-family: 'Helvetica-Bold', Helvetica;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .info h2 {
+    font-size: 16px;
+  }
+  
+  .info h3 {
+    font-size: 16px;
+  }
+  
+  .button {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .button.book {
+    width: 150px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #4525f2;
+    position: absolute;
+    top: 270px;
+    left: 35px; /* Moved to the left */
+  }
+  
+  .button.back {
+    width: 150px;
+    height: 42px;
+    background-color: #4525f2;
+    position: absolute;
+    top: 320px;
+    left: 35px; /* Moved to the left */
+  }
+  
+  .mark img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

@@ -10,7 +10,7 @@ const [showTime, setShowTime] = useState(false)
 
  return (
  <div className='app'>
-   <h1 className='header'>React Calendar</h1>
+   <h1 className='header'>Booking Calendar</h1>
    <div>
     <Calendar onChange={setDate} value={date} onClickDay={() => setShowTime(true)}/>
    </div>

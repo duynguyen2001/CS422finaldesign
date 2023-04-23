@@ -13,7 +13,9 @@ function BookingPage(){
         <BookingPersonComponent className="booking-person" />
         <Calendar className="calendar-component" />
       </div>
-      <FooterStrip />
+      <div className="footer-strip">
+        <FooterStrip />
+      </div>
     </div>
   );
 }

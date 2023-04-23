@@ -1,26 +1,50 @@
-.header {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  width: 100%;
+  padding: 10px;
+  background-color: #f2f4f8;
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 18px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  color: #1c2126;
 }
 
-nav {
+.tabs {
   display: flex;
 }
 
-.actions {
+.tab-item {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #8b8b8b;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.buttons {
   display: flex;
+}
+
+.button {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4525f2;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button:focus {
+  outline: none;
 }

@@ -16,7 +16,8 @@ function Header() {
         <TabItem label="Search Experts" />
       </nav>
       <div className="actions">
-        <Button label="Contact" />
+        <Button className="Button" label="Sign In" />
+        <Button calssName="Buttonn" label="Contact" />
         <Icon />
       </div>
     </header>

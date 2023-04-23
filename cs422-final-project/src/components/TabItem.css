@@ -4,39 +4,38 @@
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
-  }
-  
-  .tab-item.active .placement-area {
+}
+
+.tab-item.active .placement-area {
     fill: #f2f4f8;
     opacity: 0.2;
-  }
-  
-  .tab-item.active .bar {
+}
+
+.tab-item.active .bar {
     opacity: 1;
-  }
-  
-  .placement-area {
+}
+
+.placement-area {
     width: 42px;
     height: 42px;
     fill: #f2f4f8;
     opacity: 0;
-  }
-  
-  .bar {
+}
+
+.bar {
     width: 42px;
     height: 2px;
     border-radius: 1px;
     transform: translateY(40px);
     background-color: #1c2126;
     opacity: 0;
-  }
-  
-  .label {
+}
+
+.label {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 600;
     color: #8b8b8b;
     text-align: center;
     width: 80px;
-  }
-  
+}

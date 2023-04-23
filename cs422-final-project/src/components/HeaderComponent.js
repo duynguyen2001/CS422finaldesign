@@ -1,17 +1,5 @@
 import React from "react";
 import "./HeaderComponent.css";
-
-const TabItem = ({ label, onClick }) => (
-  <div className="tab-item" onClick={onClick}>
-    {label}
-  </div>
-);
-
-const Button = ({ label, onClick }) => (
-  <button className="button" onClick={onClick}>
-    {label}
-  </button>
-);
 import "./HeaderComponent.css";
 
 const TabItem = ({ label, onClick }) => (

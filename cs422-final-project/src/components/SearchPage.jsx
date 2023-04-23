@@ -5,7 +5,7 @@ import TinnCannLogo from './TinnCannLogo';
 import SearchBarComponent from './SearchBarComponent.jsx';
 import FilterComponent from './FilterComponent';
 import PersonCard from './PersonCard';
-import ScrollableScrollBar from './ScrollBarComponennt';
+import ScrollBar from './ScrollBarComponent';
 import "./SearchPage.css";
 
 // import images
@@ -54,7 +54,7 @@ function SearchPage() {
             <PersonCard {...Person3} />
           </div>
           <div className="scroll-bar-container">
-            <ScrollableScrollBar activeWidth={50} height={500} />
+            <ScrollBar activeWidth={50} height={500} />
           </div>
       </div>
       <div className="footer-strip">

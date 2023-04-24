@@ -6,16 +6,19 @@ import BookingHistory from './components/BookingHistory';
 import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
-
+import Forum from './components/Forum';
 import PaymentPage from './components/PaymentPage';
 
 
 function App() {
   return (
     <div className="App">
-      <FeedbackPage/>
+      {/* <FeedbackPage/> */}
       {/* <BookingPage /> */}
-      {/* <BookingHistory /> */}
+      <BookingHistory />
+      {/* <Forum /> */}
+      {/* <BookingPage /> */}
+      
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.booking-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 100px;
+  }
+  
+  .meetings {
+    width: 100%;
+    max-width: calc(100% - 20px); /* To leave some space for the scrollbar */
+    margin-right: 20px;
+  }
+  

@@ -1,8 +1,6 @@
 import './App.css';
 import { Router, Routes, Route } from 'react-router';
 import SearchPage from './components/SearchPage';
-<<<<<<< HEAD
-import OptionComponent from './OptionComponent';
 import BookingPage from './components/BookingPage';
 import BookingHistory from './components/BookingHistory';
 import PaymentPage from './components/PaymentPage';

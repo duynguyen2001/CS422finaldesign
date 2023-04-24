@@ -1,0 +1,55 @@
+.meeting-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .person-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .person-info h2,
+.person-info h3 {
+  margin: 0; /* Set the margin to 0 for both h2 and h3 */
+}
+
+.person-info h3 {
+  margin-top: 5px; /* Add a small margin only to the top of h3 */
+}
+
+  .person-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 25px;
+  }
+  
+  button {
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4525f2;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+  

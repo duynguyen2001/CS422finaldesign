@@ -40,8 +40,17 @@
   }
   
   .person-rating {
-    margin-left: auto;
-    font-size: 14px;
-    font-weight: bold;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .person-rating img {
+    width: 50px;
+    height: 20px;
+    
+    
+    background-color: #f7f7f7;
+    margin-left: 20px;
   }
   

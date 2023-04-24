@@ -1,45 +1,44 @@
 .search-page {
-    height: 100vh;
-  }
-  
+  height: 100vh;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.search-filter-container {
+  width: 20%;
+}
+
+.search-results-container {
+  width: 80%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
   .search-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .search-filter-container {
-    width: 20%;
+    margin-bottom: 20px;
+    width: 100%;
+    
   }
-  
+
   .search-results-container {
-    width: 80%;
-    margin-left: 20px;
+    margin-left: 0;
+    width: 100%;
   }
-  
-  @media only screen and (max-width: 768px) {
-    .search-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .search-filter-container {
-      margin-bottom: 20px;
-      width: 100%;
-    }
-  
-    .search-results-container {
-      margin-left: 0;
-      width: 100%;
-    }
-  }
+}
 
-  .tinn-cann-logo {
-    margin-top: 70px; /* Adjust this value to create the desired space */
-  }
-
-
+.tinn-cann-logo {
+  margin-top: 70px; /* Adjust this value to create the desired space */
+}
 
 .content-container {
   display: flex;
@@ -51,4 +50,30 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  margin-left: 100px;
+  max-width: 60%;
+  
+}
+
+
+
+.footer-strip {
+  font-size: 12px;
+  
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px; /* Adjust this value to control the gap between the grid elements */
+}
+
+.filter-container {
+  margin-right: 5px; /* Adjust this value to control the right margin */
+}
+
+.progress-container{
+  margin-left: 0px;
 }

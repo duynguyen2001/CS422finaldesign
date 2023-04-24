@@ -1,0 +1,17 @@
+.expert-page {
+    margin-top:20px;
+}
+  
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }

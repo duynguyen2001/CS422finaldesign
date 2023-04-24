@@ -10,6 +10,7 @@ import VideoCall from './pages/VideoCall';
 import Forum from './components/Forum';
 import PaymentPage from './components/PaymentPage';
 import EditProfilePage from './components/EditProfilePage';
+import ProfilePage from './components/ProfilePage';
 
 
 
@@ -22,7 +23,8 @@ function App() {
       {/* <Forum /> */}
       {/* <BookingPage /> */}
       {/* <EditProfilePage /> */}
-      <PaymentPage />
+      {/* <PaymentPage /> */}
+      <ProfilePage />
       
     </div>
   );

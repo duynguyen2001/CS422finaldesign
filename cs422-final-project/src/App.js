@@ -9,8 +9,8 @@ import PaymentPage from './components/PaymentPage';
 function App() {
   return (
     <div className="App">
-      <SearchPage/>
-      {/* <BookingPage /> */}
+      {/* <SearchPage/> */}
+      <BookingPage />
       {/* <BookingHistory /> */}
       {/* <PaymentPage /> */}
     </div>

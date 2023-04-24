@@ -1,0 +1,41 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    width: 'inherit';
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding:50;
+  }
+  .postContainer {
+    display: flex;
+    align-items: left; /* Centers the items vertically */
+    justify-content: left; /* Centers the items horizontally */
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 4;
+    margin: 4;
+  }
+  .postTitleTagh5 {
+    flex: 1;
+    font-size: var(--font-size-7xl);
+    letter-spacing: 0.42px;
+    line-height: 35px;
+    font-family: var(--font-roboto-condensed);
+    height: 40px;
+  }
+  
+  .textTagp {
+    display: inline-block;
+  }
+  
+  .categoryTaguiS {
+    font-size: var(--font-size-smi);
+    letter-spacing: 0.39px;
+    line-height: 19px;
+    font-family: var(--font-noto-sans);
+  }
+  
+  

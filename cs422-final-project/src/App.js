@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './components/Header';
 import { Router, Routes, Route } from 'react-router';
 import SearchPage from './components/SearchPage';
+<<<<<<< HEAD
 import OptionComponent from './OptionComponent';
 import BillGatesImage from './components/Image/Bill_gates.jpg';
 import ExpertPage from './components/ExpertPage';
@@ -14,6 +14,19 @@ function App() {
       {/* <ExpertPage /> */}
       <PaymentPage />
 
+=======
+import BookingPage from './components/BookingPage';
+import BookingHistory from './components/BookingHistory';
+
+
+
+function App() {
+  return (
+    <div className="App">
+      <SearchPage/>
+      {/* <BookingPage /> */}
+      {/* <BookingHistory /> */}
+>>>>>>> 11f7ef2af4ffffb21a5bb2fcb2820efbd92b3f1f
     </div>
   );
 }

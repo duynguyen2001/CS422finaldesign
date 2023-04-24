@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderComponent from "./HeaderComponent";
 import MeetingComponent from "./MeetingComponent";
-import ProgressBar from "./ProgressBar";
+
 import FooterStrip from "./FooterComponent";
 
 const jsonData = [
@@ -81,9 +81,7 @@ function BookingHistory() {
           />
         ))}
       </div>
-        <div style={{ marginLeft: "10px" }}> {/* Add this line to apply some margin */}
-          <ProgressBar />
-        </div>
+  
       </div>
       <div className="footer-strip">
         <FooterStrip />

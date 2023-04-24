@@ -8,6 +8,7 @@ import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
 import Forum from './components/Forum';
 import PaymentPage from './components/PaymentPage';
+import ProfilePage1 from './components/ProfilePage';
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
     <div className="App">
       {/* <FeedbackPage/> */}
       {/* <BookingPage /> */}
-      <BookingHistory />
+      {/* <BookingHistory /> */}
       {/* <Forum /> */}
       {/* <BookingPage /> */}
+      <ProfilePage1 />
       
     </div>
   );

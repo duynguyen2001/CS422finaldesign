@@ -5,7 +5,7 @@ import TinnCannLogo from './TinnCannLogo';
 import SearchBarComponent from './SearchBarComponent.jsx';
 import FilterComponent from './FilterComponent';
 import PersonCard from './PersonCard';
-import ProgressBar from './ProgressBar';
+
 import "./SearchPage.css";
 
 // import images
@@ -57,9 +57,7 @@ function SearchPage() {
           <PersonCard {...Person2} />
           <PersonCard {...Person3} />
         </div>
-      <div className="progress-container">
-        <ProgressBar />
-    </div>
+      
   </div>
 </div>
 

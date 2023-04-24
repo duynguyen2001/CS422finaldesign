@@ -1,8 +1,8 @@
 import { FunctionComponent, useState, useCallback } from "react";
 import Contact from "./Contact";
 import PortalPopup from "./PortalPopup";
-import styles from "./ProfilePage.module.css";
-const ProfilePage1: FunctionComponent = () => {
+import styles from "./EditProfilePage.module.css";
+const EditProfilePage: FunctionComponent = () => {
   const [isContactPopupOpen, setContactPopupOpen] = useState(false);
 
   const onLabelClick = useCallback(() => {
@@ -263,4 +263,4 @@ const ProfilePage1: FunctionComponent = () => {
   );
 };
 
-export default ProfilePage1;
+export default EditProfilePage;

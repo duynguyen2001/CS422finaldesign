@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import HeaderComponent from './HeaderComponent';
-import ExpertiseFilter from './Experties';
 import TinnCannLogo from './TinnCannLogo';
 import SearchBarComponent from './SearchBarComponent.jsx';
 import FilterComponent from './FilterComponent';
@@ -66,4 +65,3 @@ function ExpertPage() {
   }
   
   export default ExpertPage;
->>>>>>> 4b3bf8fb8484c9ad0ba9c243f1aa9d76e26b9820

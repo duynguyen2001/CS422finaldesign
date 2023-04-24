@@ -16,8 +16,8 @@ const Button = ({ label, onClick }) => (
 const handleTabClick = (label) => {
   console.log(`${label} tab clicked`);
   if (label === "Home") {
-    onHomeClick();
-  }
+    // onHomeClick();
+  }};
 
 const HeaderComponent = () => {
   const handleTabClick = (label) => {

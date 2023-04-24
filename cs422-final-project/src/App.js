@@ -10,8 +10,13 @@ function App() {
     <div className="App">
       {/* <OptionComponent name="Khanh" numberOfStars={4} imageLink={BillGatesImage} description="ahahahahahah" position="Header PC"/> */}
       {/* <SearchPage/> */}
+<<<<<<< Updated upstream
       <ExpertPage />
 
+=======
+      <BookingPage />
+      {/* <BookingHistory /> */}
+>>>>>>> Stashed changes
     </div>
   );
 }

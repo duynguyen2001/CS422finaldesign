@@ -15,9 +15,9 @@ function BookingHistory() {
       <div style={{
         display: "flex",
         flexDirection: "row",
-        justifyContent: "80",
-        maxWidth: "60%", 
-        margin: "0 auto 0 350px" 
+        justifyContent: "80", // Add this line to control spacing
+        maxWidth: "60%", // Add this line to control the maximum width of the container
+        margin: "0 auto 0 350px" // Add this line to center the container
         
       }}>
         <div>

@@ -9,9 +9,9 @@ import BookingHistory from './components/BookingHistory';
 function App() {
   return (
     <div className="App">
-      <SearchPage/>
+      {/* <SearchPage/> */}
       {/* <BookingPage /> */}
-      {/* <BookingHistory /> */}
+      <BookingHistory />
     </div>
   );
 }

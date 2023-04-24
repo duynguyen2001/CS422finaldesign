@@ -21,13 +21,16 @@
   }
   
   .payment-page-container button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
     font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #4525f2;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 30px;
     cursor: pointer;
+    margin-left: 10px;
   }
   
   .payment-page-container button[type="submit"]:hover {
@@ -39,3 +42,5 @@
     outline: none;
     box-shadow: 0 0 3px #007bff;
   }
+
+  

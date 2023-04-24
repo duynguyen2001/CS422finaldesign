@@ -50,7 +50,7 @@ const PaymentPage = () => {
             Card Holder Name:
             <input type="text" value={cardHolderName} onChange={handleCardHolderNameChange} />
           </label>
-          <button type="submit">Submit Payment</button>
+          <button type="submit">Pay Now!</button>
         </form>
       </div>
     </div>

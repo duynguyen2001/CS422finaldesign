@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-noto-sans-jp: "Noto Sans JP";
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-16xl: 35px;
+  --font-size-base: 16px;
+  --font-size-10xs: 3px;
+  --font-size-smi: 13px;
+  --font-size-lg: 18px;
+  --font-size-7xl: 26px;
+  --font-size-11xl: 30px;
+  --font-size-19xl: 38px;
+
+  /* Colors */
+  --color-gray-100: #fcfcfc;
+  --color-gray-200: #8b8b8b;
+  --color-gray-300: #1c2126;
+  --color-whitesmoke-100: #f2f4f8;
+  --color-mediumvioletred: rgba(253, 73, 198, 0.35);
+  --color-mediumblue: #4525f2;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgray-100: #a1a1a1;
+  --color-cornflowerblue-100: #b4a8f9;
+  --color-gainsboro: #d7dcde;
+  --color-dimgray: #707070;
+
+  /* border radiuses */
+  --br-981xl: 1000px;
+  --br-base: 16px;
+  --br-81xl: 100px;
+  --br-8xs: 5px;
+}

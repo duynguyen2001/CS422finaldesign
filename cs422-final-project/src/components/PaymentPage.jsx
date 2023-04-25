@@ -59,6 +59,7 @@ const PaymentPage: FunctionComponent = () => {
       </h3>
       <input className={styles.paymentPageChild1} type="text" />
       <img className={styles.image7Icon} alt="" src="/image-7@2x.png" />
+      <button style={{position:"absolute", top: "1000px"}} onClick={routeChange}>Pay Now</button>
     </div>
   );
 };

@@ -60,7 +60,7 @@ export const skillsData = [
 
   },
   {
-    title: "How to Develop Your Technical Skills",
+    title: "What is the Ideal Design Workflow for UX/UI Designers?",
     content: "In today's rapidly evolving job market, it's important to stay up-to-date with the latest technologies and tools. Here's a guide on how to develop your technical skills and stay competitive in your field.",
     category: "Skill Development",
     date: "2022-10-01",

@@ -8,9 +8,10 @@ const BlogPostChoice = ({
     date,
     author,
     imglink,
+    onPostContainerClick
 }) => {
     return (
-        <div style={{alignContent:"left", justifyContent:"left"}}className={styles.postContainer}>
+        <div style={{alignContent:"left", justifyContent:"left"}}className={styles.postContainer} onClick={onPostContainerClick}>
             <img className={styles.image} alt={imglink} src={imglink} />
             <div className={styles.post}>
                 <b className={styles.categoryTaguiS}>

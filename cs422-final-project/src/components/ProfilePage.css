@@ -237,7 +237,7 @@
     bottom: 1.81px;
     left: 1.58px;
   }
-  .button,
+  .button-e,
   .icon11,
   .icon12 {
     position: absolute;
@@ -250,7 +250,8 @@
     height: 20px;
     display: none;
   }
-  .button {
+  .button-e
+  {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -611,7 +612,7 @@
     height: 20px;
     display: none;
   }
-  .button1 {
+  .button-2 {
     cursor: pointer;
     border: 0;
     padding: 0;

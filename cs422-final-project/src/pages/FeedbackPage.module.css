@@ -1133,7 +1133,7 @@
   width: 24px;
   height: 23px;
 }
-.areaDisplayElementslabel {
+/* .areaDisplayElementslabel {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1144,16 +1144,16 @@
   border-radius: var(--br-xl);
   background-color: #f29d25;
   box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
-}
+} */
 .icon12,
 .label6 {
   position: absolute;
 }
-.label6 {
+/* .label6 {
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: orange;
   top: calc(50% - 20px);
   left: calc(50% - 52px);
   font-size: var(--font-size-11xl);
@@ -1162,7 +1162,13 @@
   color: var(--color-white);
   text-align: center;
   display: inline-block;
-}
+} */
+
+/* button{
+  background-color: orange;
+  height: 110px;
+  width: 300px;
+} */
 .icon12 {
   height: calc(100% - 3.31px);
   width: calc(100% + 1.66px);
@@ -1184,7 +1190,7 @@
   display: none;
 }
 .buttonDisplayElementslabel1 {
-  cursor: pointer;
+  /* cursor: pointer; */
   border: 0;
   padding: 0;
   background-color: transparent;

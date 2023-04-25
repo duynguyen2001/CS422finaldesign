@@ -2,8 +2,20 @@ import { useState, useCallback } from "react";
 import Contact from "../components/Contact";
 import PortalPopup from "../components/PortalPopup";
 import styles from "./FeedbackPage.module.css";
+
+
 const FeedbackPage = () => {
   const [isContactPopupOpen, setContactPopupOpen] = useState(false);
+
+  const [buttonColor, setButtonColor] = useState('orange');
+  const [displayText, setDisplayText] = useState('');
+  const [buttonText, setButtonText] = useState('Submit Feedback');
+  const handleB1 = () => {
+
+    setButtonColor('limegreen');
+    setButtonText('Feedback Submitted');
+    
+}
 
   const openContactPopup = useCallback(() => {
     setContactPopupOpen(true);
@@ -414,17 +426,21 @@ const FeedbackPage = () => {
         </footer>
         <img className={styles.figureIcon} alt="" src="/figure.svg" />
         <img className={styles.plantRightIcon} alt="" src="/plant-right.svg" />
+        
         <button className={styles.buttonDisplayElementslabel1}>
+        <div className="btn">
+        <button style = {{backgroundColor: buttonColor}}onClick = {handleB1} className="ZoomButton">{buttonText}</button>
+        
+        </div>
           <div
             className={styles.metadata45}
           >{`{"config":{},"type":"Button","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.215Z","nodeName":"Button [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
           <div className={styles.areaDisplayElementslabel} />
-          <button className={styles.label6}>Submit</button>
           <div className={styles.iconDisplayElementslabel1}>
-            <div
+            {/* <div
               className={styles.metadata45}
             >{`{"config":{"STATE":"DEFAULT"},"type":"Icon","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.201Z","nodeName":"Icon [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
-            <img className={styles.icon12} alt="" src="/icon14.svg" />
+            <img className={styles.icon12} alt="" src="/icon14.svg" /> */}
           </div>
         </button>
         <img

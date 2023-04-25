@@ -44,7 +44,7 @@
 .cardWrapper {
   position: absolute;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   top: 0;
   /* right: 0; */
   bottom: 0;
@@ -150,11 +150,11 @@
   width: 42px;
   display: none;
 }
-.area1,
+/* .area1,
 .label1 {
   position: absolute;
-}
-.area1 {
+} */
+/* .area1 {
   height: 100%;
   width: calc(100% - 9px);
   top: 0;
@@ -162,8 +162,8 @@
   bottom: 0;
   left: 0.04px;
   background-color: var(--color-whitesmoke-100);
-}
-.label1 {
+} */
+/* .label1 {
   text-decoration: none;
   top: calc(50% - 11px);
   left: 0;
@@ -172,32 +172,32 @@
   font-family: var(--font-noto-sans);
   color: var(--color-gray-200);
   text-align: left;
-}
-.area2,
+} */
+/* .area2,
 .tabItemStatedefault {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
-}
-.tabItemStatedefault {
+} */
+/* .tabItemStatedefault {
   left: calc(50% + 39px);
   width: 51px;
   cursor: pointer;
-}
+} */
 .area2 {
   left: 0.04px;
   background-color: var(--color-whitesmoke-100);
   width: 42px;
 }
-.tabItemStatedefault1,
+/* .tabItemStatedefault1,
 .tabItemStatedefault2 {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
   cursor: pointer;
-}
+} */
 .tabItemStatedefault1 {
   right: 0;
   width: 64px;
@@ -206,11 +206,11 @@
   left: calc(50% - 107px);
   width: 115px;
 }
-.area4,
+/* .area4,
 .label4 {
   position: absolute;
-}
-.area4 {
+} */
+/* .area4 {
   height: 100%;
   width: calc(100% - 5px);
   top: 0;
@@ -218,8 +218,8 @@
   bottom: 0;
   left: 0.04px;
   background-color: var(--color-whitesmoke-100);
-}
-.label4 {
+} */
+/* .label4 {
   text-decoration: none;
   top: calc(50% - 11px);
   left: 0;
@@ -228,8 +228,8 @@
   font-family: var(--font-noto-sans);
   color: var(--color-darkgray-200);
   text-align: left;
-}
-.tabItemStateactive {
+} */
+/* .tabItemStateactive {
   position: absolute;
   height: 100%;
   top: 0;
@@ -237,19 +237,19 @@
   left: 0;
   width: 47px;
   cursor: pointer;
-}
-.tabs {
+} */
+/* .tabs {
   height: calc(100% - 6px);
   top: 3px;
   bottom: 3px;
   left: calc(50% - 192.5px);
   width: 370px;
-}
-.icon,
+} */
+/* .icon,
 .label5,
 .tabs {
   position: absolute;
-}
+} */
 .label5 {
   top: calc(50% - 11px);
   left: calc(50% - 30px);
@@ -279,7 +279,7 @@
   height: 20px;
   display: none;
 }
-.buttonDisplayElementslabel {
+/* .buttonDisplayElementslabel {
   position: absolute;
   height: 100%;
   top: 0;
@@ -288,7 +288,7 @@
   border-radius: var(--br-81xl);
   background-color: var(--color-mediumblue);
   width: 144px;
-}
+} */
 .icon1 {
   position: absolute;
   height: calc(100% + 3.22px);
@@ -309,14 +309,14 @@
   width: 24px;
   height: 24px;
 }
-.header {
+/* .header {
   position: absolute;
   top: 58px;
   left: 420px;
   width: 1081px;
   height: 48px;
   cursor: pointer;
-}
+} */
 .companyStylestyle3tagh4,
 .descriptionStylestyle3tag,
 .metadata18 {
@@ -781,8 +781,8 @@
 .iconMaterialCheckBoxOutlin {
   cursor: pointer;
   position: absolute;
-  top: 292.33px;
-  left: 708px;
+  top: 270px;
+  left: 900px;
   width: 27px;
   height: 27px;
 }
@@ -799,8 +799,8 @@
 .iconMaterialCheckBoxOutlin1 {
   cursor: pointer;
   position: absolute;
-  top: 360.33px;
-  left: 708px;
+  top: 335.33px;
+  left: 900px;
   background-color: var(--color-black);
   width: 27px;
   height: 27px;
@@ -829,23 +829,23 @@
 .iconMaterialCheckBoxOutlin4 {
   cursor: pointer;
   position: absolute;
-  top: 434.33px;
-  left: 708px;
+  top: 405px;
+  left: 900px;
   background-color: var(--color-black);
   width: 27px;
   height: 27px;
 }
 .iconMaterialCheckBoxOutlin3,
 .iconMaterialCheckBoxOutlin4 {
-  top: 498.33px;
+  top: 468.33px;
 }
 .iconMaterialCheckBoxOutlin4 {
-  top: 573.33px;
+  top: 543.33px;
 }
 .howWasThe {
   position: absolute;
   top: 221px;
-  left: 1065px;
+  left: 50%;
   font-size: 25px;
 }
 .wasThisMeeting {
@@ -879,7 +879,7 @@
   position: absolute;
   top: 644px;
   left: 699px;
-  display: inline-block;
+  /* display: inline-block; */
   width: 216px;
   height: 23px;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -1180,7 +1180,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.iconDisplayElementslabel1 {
+/* .iconDisplayElementslabel1 {
   position: absolute;
   top: calc(50% - 23px);
   right: 37px;
@@ -1188,7 +1188,7 @@
   width: 47px;
   height: 46px;
   display: none;
-}
+} */
 .buttonDisplayElementslabel1 {
   /* cursor: pointer; */
   border: 0;

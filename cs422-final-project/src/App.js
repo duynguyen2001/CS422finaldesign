@@ -3,9 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchPage from './components/SearchPage';
 import BookingPage from './components/BookingPage';
 import BookingHistory from './components/BookingHistory';
-// import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
-import VideoCall from './pages/VideoCall';
 import VCPage from './components/VCPage';
 import Message from './components/Message';
 import Forum from './components/Forum';
@@ -25,7 +23,6 @@ function App() {
           <Route path="booking" element={<BookingPage />} />
           <Route path="booking-history" element={<BookingHistory />} />
           <Route path="feedback" element={<FeedbackPage />} />
-          <Route path="video-call" element={<VideoCall />} />
           <Route path="payment" element={<PaymentPage />} />
           <Route path="edit-profile" element={<EditProfilePage />} />
           <Route path="profile" element={<ProfilePage />} />

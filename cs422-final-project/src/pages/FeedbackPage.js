@@ -2,10 +2,11 @@ import { useState, useCallback } from "react";
 import Contact from "../components/Contact";
 import PortalPopup from "../components/PortalPopup";
 import styles from "./FeedbackPage.module.css";
+import HeaderComponent from "../components/HeaderComponent";
 
 
 const FeedbackPage = () => {
-  const [isContactPopupOpen, setContactPopupOpen] = useState(false);
+  // const [isContactPopupOpen, setContactPopupOpen] = useState(false);
 
   const [buttonColor, setButtonColor] = useState('orange');
   const [displayText, setDisplayText] = useState('');
@@ -17,13 +18,13 @@ const FeedbackPage = () => {
     
 }
 
-  const openContactPopup = useCallback(() => {
-    setContactPopupOpen(true);
-  }, []);
+  // const openContactPopup = useCallback(() => {
+  //   setContactPopupOpen(true);
+  // }, []);
 
-  const closeContactPopup = useCallback(() => {
-    setContactPopupOpen(false);
-  }, []);
+  // const closeContactPopup = useCallback(() => {
+  //   setContactPopupOpen(false);
+  // }, []);
 
   const onTabItemSTATEDEFAULTClick = useCallback(() => {
     // Please sync "Blog" to the project
@@ -65,7 +66,10 @@ const FeedbackPage = () => {
             className={styles.metadata1}
           >{`{"config":{},"type":"Card","nodeName":"Card","children":["f59ca052-bd2b-453f-92be-c50a52c9373c","3e898a7f-0800-42c0-943f-715b5cf9b17d"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T04:51:59.369Z"}`}</div>
         </div>
-        <nav className={styles.header} onClick={openContactPopup}>
+        <nav className="header-nav">
+          <HeaderComponent/>
+        </nav>
+        <nav className={styles.header}>
           <div
             className={styles.metadata3}
           >{`{"config":{},"nodeName":"Header","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.847Z"}`}</div>
@@ -99,7 +103,7 @@ const FeedbackPage = () => {
                 >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.706Z"}`}</div>
                 <div className={styles.bar} />
               </div>
-              <a className={styles.label1}>Forum</a>
+              {/* <a className={styles.label1}>Forum</a> */}
             </div>
             <div
               className={styles.tabItemStatedefault1}
@@ -114,7 +118,7 @@ const FeedbackPage = () => {
                 >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:37:01.098Z"}`}</div>
                 <div className={styles.bar} />
               </div>
-              <a className={styles.label1}>Account</a>
+              {/* <a className={styles.label1}>Account</a> */}
             </div>
             <div
               className={styles.tabItemStatedefault2}
@@ -129,7 +133,7 @@ const FeedbackPage = () => {
                 >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.744Z"}`}</div>
                 <div className={styles.bar} />
               </div>
-              <a className={styles.label1}>Search Experts</a>
+              {/* <a className={styles.label1}>Search Experts</a> */}
             </div>
             <div
               className={styles.tabItemStateactive}
@@ -143,14 +147,14 @@ const FeedbackPage = () => {
                   className={styles.metadata5}
                 >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.765Z"}`}</div>
               </div>
-              <a className={styles.label4}>Home</a>
+              {/* <a className={styles.label4}>Home</a> */}
             </div>
           </nav>
           <div className={styles.buttonDisplayElementslabel}>
             <div
               className={styles.metadata5}
             >{`{"config":{},"type":"Button","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.826Z","nodeName":"Button [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
-            <div className={styles.label5}>Contact</div>
+            {/* <div className={styles.label5}>Contact</div> */}
             <div className={styles.iconDisplayElementslabel}>
               <div
                 className={styles.metadata5}
@@ -485,7 +489,7 @@ const FeedbackPage = () => {
           cols={30}
         />
       </div>
-      {isContactPopupOpen && (
+      {/* {isContactPopupOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
           placement="Centered"
@@ -493,7 +497,7 @@ const FeedbackPage = () => {
         >
           <Contact onClose={closeContactPopup} />
         </PortalPopup>
-      )}
+      )} */}
     </>
   );
 };

@@ -48,7 +48,10 @@ function SearchPage() {
         console.log(selectedFilters);
     };
 
-    
+    const navigate = useNavigate();
+    const handleContainerClick = () => {
+      navigate('/expert');
+    };
 
 
   return (
@@ -65,7 +68,8 @@ function SearchPage() {
         <div> 
           <Filter filters={filters} handleFilterChange={handleFilterChange}/>
         </div>
-        <div className="person-cards-container">
+        <div className="person-cards-container" style={{ cursor: 'pointer' }} // Optional: Change the cursor to indicate it's clickable
+      onClick={handleContainerClick}>
           <PersonCard {...Person1} />
           <PersonCard {...Person2} />
           <PersonCard {...Person3} />

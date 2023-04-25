@@ -13,7 +13,7 @@ import EditProfilePage from './components/EditProfilePage';
 import ProfilePage from './components/ProfilePage';
 import LandingPage from './components/LandingPage';
 import SignIn from './components/SignIn';
-
+import ExpertPage from './components/ExpertPage';
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
           <Route path="message" element={<Message />} />
           <Route path="signin" element={<SignIn />} />
           <Route path="*" element={<LandingPage />} />
+          <Route path="expert" element={<ExpertPage />} />
 
         </Routes>
       </BrowserRouter>

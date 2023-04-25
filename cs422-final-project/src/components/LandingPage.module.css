@@ -66,13 +66,15 @@
   cursor: pointer;
   position: absolute;
   top: 27px;
-  left: calc(50% - 147.5px);
+  left: calc(100% - 300px);
   font-size: var(--font-size-25xl);
   line-height: 52px;
   font-weight: 700;
   font-family: var(--font-roboto-condensed);
   color: var(--color-gray-300);
+  width: 300px;
   text-align: left;
+  font-size:36px;
 }
 .icon,
 .label {
@@ -191,10 +193,9 @@
 }
 .feature1 {
   position: absolute;
-  width: calc(100% - 271px);
+  width: 70%;
   top: calc(50% - 105.5px);
-  right: 120px;
-  left: 151px;
+  left: 15%;
   height: 454px;
 }
 .metadata9 {
@@ -436,6 +437,8 @@
   font-family: var(--font-roboto-condensed);
   color: var(--color-gray-300);
   text-align: left;
+  font-size: 36px;
+  z-index: 999;
 }
 .feature2 {
   position: absolute;
@@ -443,6 +446,7 @@
   left: 0;
   width: 751px;
   height: 184px;
+  z-index: 900
 }
 .metadata13 {
   position: absolute;
@@ -492,10 +496,9 @@
 }
 .shapeParent {
   position: absolute;
-  width: calc(100% - 251px);
-  top: 80.5px;
-  right: 108px;
-  left: 143px;
+  width: 70%;
+  left: 15%;
+  justify-content: center;
   height: 693.5px;
 }
 .metadata14 {
@@ -842,7 +845,7 @@
   height: 18px;
 }
 .tinncann {
-  margin: 0;
+
 }
 .titleTagh1 {
   margin: 0;
@@ -852,13 +855,13 @@
   left: 187px;
   font-size: var(--font-size-41xl);
   letter-spacing: 1.2px;
-  line-height: 68px;
   font-weight: 700;
   font-family: var(--font-roboto-condensed);
   color: var(--color-mediumblue-100);
   text-align: center;
   display: inline-block;
   height: 150px;
+  line-height: 10px;
 }
 .hero {
   width: 100%;
@@ -876,6 +879,7 @@
 .titleTagh6 {
   position: absolute;
   text-align: left;
+  
 }
 .metadata29 {
   top: -36px;
@@ -1152,15 +1156,15 @@
 }
 .header,
 .titleTagh11 {
-  width: 100%;
   position: absolute;
-  top: 36px;
-  left: 143px;
-  height: 48px;
+  align-content: center;
+  justify-content: center;
+
 }
 .titleTagh11 {
   top: 2157px;
-  left: 253px;
+  width: 70%;
+  left: 15%;
   font-size: var(--font-size-7xl);
   letter-spacing: 0.52px;
   line-height: 20px;
@@ -1168,7 +1172,6 @@
   font-family: var(--font-roboto-condensed);
   color: var(--color-mediumblue-100);
   text-align: center;
-  width: 862px;
   height: 138px;
 }
 .copyright2020,
@@ -1210,7 +1213,6 @@
 .bb24a43Ab29467cB41bFfd5876 {
   top: calc(50% - 6.5px);
   right: 4.49px;
-  border-right: 2px solid #6a51f5;
   width: 2.01px;
   height: 4px;
 }
@@ -1399,9 +1401,9 @@
   position: absolute;
   bottom: -63px;
   left: 0;
+  right: 0;
   background-color: var(--color-mediumblue-100);
-  width: 1366px;
-  height: 447px;
+  height: 450px;
 }
 .metadata55 {
   right: -8px;

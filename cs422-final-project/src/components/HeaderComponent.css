@@ -2,15 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 10px;
-    background-color: #f2f4f8;
+    width: 80%;
     height: 60px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 999;
   }
   
   .logo {
     font-size: 18px;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Proxima", sans-serif;
     font-weight: 700;
     letter-spacing: -0.005em;
     color: #1c2126;
@@ -18,6 +21,10 @@
   
   .tabs {
     display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 20px;
+    z-index: 999;
   }
   
   .tab-item {
@@ -26,25 +33,23 @@
     font-weight: 600;
     color: #8b8b8b;
     cursor: pointer;
-    margin-right: 30px;
   }
   
   .buttons {
     display: flex;
-    right: 10px;
-    top: 10px
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 45px;
+    top: 10px;
   }
   
-  .button {
+  .button-header {
     font-size: 16px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 600;
     color: #fff;
     background-color: #4525f2;
-    border: none;
-    border-radius: 24px;
-    padding: 10px 30px;
-    cursor: pointer;
   }
   
   .button:focus {

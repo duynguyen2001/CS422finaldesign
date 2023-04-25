@@ -1,16 +1,64 @@
 import React from "react";
 import "./HeaderComponent.css";
-import "./HeaderComponent.css";
 import { useNavigate } from "react-router-dom";
 
-const TabItem = ({ label, onClick }) => (
-    <div className="tab-item" onClick={onClick}>
-        {label}
-    </div>
-);
+const TabItem = ({ label, onClick }) => {
+    const currentTab = window.location.pathname;
+    if (label === "Home" && currentTab === "/") {
+        return (
+            <div
+                className="tab-item"
+                style={{ color: "#000" }}
+                onClick={onClick}
+            >
+                <b>{label}</b>
+            </div>
+        );
+    }
+    if (label === "Forum" && currentTab === "/forum") {
+        return (
+            <div
+                className="tab-item"
+                style={{ color: "#000" }}
+                onClick={onClick}
+            >
+                <b>{label}</b>
+            </div>
+        );
+    }
+    if (label === "Search Experts" && currentTab === "/search") {
+        return (
+            <div
+                className="tab-item"
+                style={{ color: "#000" }}
+                onClick={onClick}
+            >
+                <b>{label}</b>
+            </div>
+        );
+    }
+    if (label === "Account" && currentTab === "/profile") {
+        return (
+            <div
+                className="tab-item"
+                style={{ color: "#000" }}
+                onClick={onClick}
+            >
+                <b>{label}</b>
+            </div>
+        );
+    }
+
+    return (
+        <div className="tab-item" onClick={onClick}>
+            {label}
+        </div>
+    );
+};
+
 
 const Button = ({ label, onClick }) => (
-    <button className="button" onClick={onClick}>
+    <button className="button-header" onClick={onClick}>
         {label}
     </button>
 );
@@ -20,6 +68,8 @@ const HeaderComponent = () => {
         console.log(`${label} button clicked`);
     };
     const navigate = useNavigate();
+    const [showLogin, setShowLogin] = React.useState(false);
+    const [showContact, setShowContact] = React.useState(false);
 
     const handleTabClick = (label) => {
         console.log(`${label} tab clicked`);
@@ -31,6 +81,10 @@ const HeaderComponent = () => {
             navigate("/profile");
         } else if (label === "Search Experts") {
             navigate("/search");
+        } else if (label === "Sign in") {
+            showLogin ? setShowLogin(false) : setShowLogin(true);
+        } else if (label === "Contact") {
+          showContact ? setShowContact(false) : setShowContact(true);
         }
     };
 
@@ -43,16 +97,17 @@ const HeaderComponent = () => {
                     label="Forum"
                     onClick={() => handleTabClick("Forum")}
                 />
-                <TabItem
-                    label="Account"
-                    onClick={() => handleTabClick("Account")}
-                />
+
                 <TabItem
                     label="Search Experts"
                     onClick={() => handleTabClick("Search Experts")}
                 />
+                <TabItem
+                    label="Account"
+                    onClick={() => handleTabClick("Account")}
+                />
             </div>
-            <div className="buttons">
+            <div>
                 <Button
                     label="Sign in"
                     onClick={() => handleButtonClick("Sign in")}

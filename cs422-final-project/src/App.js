@@ -7,9 +7,12 @@ import BookingHistory from './components/BookingHistory';
 import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
+import VCPage from './components/VCPage';
+import Message from './components/Message';
 import Forum from './components/Forum';
 import PaymentPage from './components/PaymentPage';
 import EditProfilePage from './components/EditProfilePage';
+import ProfilePage from './components/ProfilePage';
 
 
 
@@ -17,13 +20,14 @@ import EditProfilePage from './components/EditProfilePage';
 function App() {
   return (
     <div className="App">
-      {/* <FeedbackPage/> */}
+      <Message/>
       {/* <BookingPage /> */}
       {/* <BookingHistory /> */}
       {/* <Forum /> */}
       {/* <BookingPage /> */}
       {/* <EditProfilePage /> */}
-      <PaymentPage />
+      {/* <PaymentPage /> */}
+      <ProfilePage />
       
       
     </div>

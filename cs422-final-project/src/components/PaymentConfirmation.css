@@ -1,0 +1,321 @@
+.metadata,
+.metadata1 {
+  position: absolute;
+  top: -126.5px;
+  left: -140px;
+  display: none;
+  width: 11px;
+  height: 10px;
+}
+.metadata1 {
+  top: 44.5px;
+  left: -95px;
+}
+.card-display-elementsdefault {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.1);
+}
+.background-stylestyle2-icon {
+  position: absolute;
+  height: calc(100% - 42.23px);
+  top: 16px;
+  right: 16px;
+  bottom: 26.23px;
+  max-height: 100%;
+  width: 432px;
+}
+.metadata2 {
+  position: absolute;
+  top: -259.5px;
+  left: -716px;
+  display: none;
+  width: 11px;
+  height: 10px;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipse-icon1,
+.location-pin {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  width: 28px;
+  height: 28px;
+}
+.location-pin {
+  top: calc(50% + 25.5px);
+  left: calc(50% + 176px);
+  width: 80px;
+  height: 80px;
+}
+.metadata3 {
+  position: absolute;
+  bottom: -152px;
+  left: 6px;
+  display: none;
+  width: 11px;
+  height: 10px;
+}
+.label {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 56px);
+  font-weight: 600;
+}
+.label-wrapper {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-mediumblue);
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-noto-sans);
+}
+.icon,
+.label-wrapper,
+.metadata4 {
+  position: absolute;
+  left: 0;
+}
+.metadata4 {
+  top: 0;
+  display: none;
+  width: 11px;
+  height: 10px;
+}
+.icon {
+  height: calc(100% - 0.64px);
+  width: calc(100% + 1.91px);
+  top: 1.28px;
+  right: -1.91px;
+  bottom: -0.64px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-display-elementslabel {
+  position: absolute;
+  right: 10px;
+  bottom: -176px;
+  background-color: var(--color-gray-100);
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.button-display-elementslabel {
+  position: absolute;
+  top: calc(50% + 105.5px);
+  left: 60px;
+  width: 328px;
+  height: 48px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.icon1 {
+  position: absolute;
+  height: calc(100% + 4.71px);
+  width: calc(100% + 4.71px);
+  top: 0;
+  right: -4.71px;
+  bottom: -4.71px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-iconfeatherxsizemed {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+  background-color: var(--color-mediumvioletred);
+  width: 20px;
+  height: 20px;
+}
+.circle-button-sizemediumst {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  border-radius: var(--br-981xl);
+  background-color: var(--color-whitesmoke);
+  width: 48px;
+  height: 48px;
+}
+.icon2 {
+  position: absolute;
+  height: calc(100% + 2.18px);
+  width: calc(100% - 2.18px);
+  top: 0;
+  right: 0;
+  bottom: -2.18px;
+  left: 2.18px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-iconfeathermap-pinsi {
+  position: absolute;
+  top: calc(50% - 99.5px);
+  left: 60px;
+  background-color: var(--color-gray-100);
+  width: 24px;
+  height: 24px;
+}
+.icon3 {
+  position: absolute;
+  height: calc(100% + 2.41px);
+  width: calc(100% + 2.36px);
+  top: 0;
+  right: -2.39px;
+  bottom: -2.41px;
+  left: 0.02px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-iconfeatherphonesize {
+  position: absolute;
+  top: calc(50% - 51.5px);
+  left: 60px;
+  background-color: var(--color-gray-100);
+  width: 24px;
+  height: 24px;
+}
+.a423c526-5962-48ea-9909-41bfff {
+  position: absolute;
+  bottom: 4.8px;
+  left: calc(50% - 3.6px);
+  border-right: 2.4px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 2.41px;
+  height: 4.8px;
+}
+.icon4 {
+  position: absolute;
+  height: calc(100% + 2.4px);
+  top: -2.4px;
+  right: 3.6px;
+  bottom: 0;
+  border-radius: var(--br-11xs);
+  border: 2.4px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 19.2px;
+}
+.icon-iconfeathersmartphone {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: 60px;
+  background-color: var(--color-gray-100);
+  width: 24px;
+  height: 24px;
+}
+.address,
+.mobile,
+.phone {
+  position: absolute;
+  top: calc(50% - 98.5px);
+  left: 100px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-noto-sans);
+  display: inline-block;
+  width: 289px;
+  height: 22px;
+}
+.mobile,
+.phone {
+  top: calc(50% - 50.5px);
+}
+.mobile {
+  top: calc(50% - 2.5px);
+}
+.title-tagh4 {
+  position: absolute;
+  top: 56px;
+  left: 60px;
+  font-size: var(--font-size-16xl);
+  letter-spacing: 0.28px;
+  line-height: 43px;
+  font-family: var(--font-proxima-nova);
+}
+.icon-feather-clock,
+.mobile1 {
+  position: absolute;
+  top: calc(50% + 44.5px);
+  left: 60px;
+  width: 29px;
+  height: 29px;
+}
+.mobile1 {
+  top: calc(50% + 45.5px);
+  left: 100px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-noto-sans);
+  display: inline-block;
+  width: 289px;
+  height: 22px;
+}
+.bill-gates-icon {
+  position: absolute;
+  height: calc(100% - 42.23px);
+  top: 16px;
+  right: 16px;
+  bottom: 26.23px;
+  max-height: 100%;
+  width: 432px;
+  object-fit: cover;
+}
+.label1 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 38px);
+  font-weight: 600;
+}
+.button-display-elementslabel1 {
+  position: absolute;
+  bottom: 26px;
+  left: 60px;
+  width: 328px;
+  height: 48px;
+  color: var(--color-white);
+}
+.sign-up {
+  position: absolute;
+  top: 82px;
+  left: 235px;
+  width: 896px;
+  height: 469px;
+}
+.payment-confirmation {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-10xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-arial);
+}

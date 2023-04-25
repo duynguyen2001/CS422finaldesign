@@ -2,6 +2,8 @@ import { FunctionComponent, useState, useCallback } from "react";
 import Contact from "./Contact";
 import PortalPopup from "./PortalPopup";
 import styles from "./EditProfilePage.module.css";
+
+
 const EditProfilePage: FunctionComponent = () => {
   const [isContactPopupOpen, setContactPopupOpen] = useState(false);
 
@@ -29,16 +31,39 @@ const EditProfilePage: FunctionComponent = () => {
     setContactPopupOpen(false);
   }, []);
 
+
+  const [buttonColor, setButtonColor] = useState('blue');
+  const [displayText, setDisplayText] = useState('');
+  const [buttonText, setButtonText] = useState('Save Changes');
+    
+        const handleB1 = () => {
+            setDisplayText('Please Wait! The meeting Host will let you in soon');
+            setButtonColor('limegreen');
+            setButtonText('Saved');
+            
+        }
+
+  const [buttonColor2, setButtonColor2] = useState('blue');
+  const [displayText2, setDisplayText2] = useState('');
+  const [buttonText2, setButtonText2] = useState('Cancel');
+          
+              const handleB2 = () => {
+                  setDisplayText2('Please Wait! The meeting Host will let you in soon');
+                  setButtonColor2('red');
+                  setButtonText2('Canceled');
+                  
+              }
+
   return (
     <>
       <div className={styles.profilePage1}>
         <h2 className={styles.userProfilePhoto}>User Profile Photo</h2>
-        <button className={styles.button}>
+        <button className={styles.button} style = {{backgroundColor: buttonColor}}onClick = {handleB1} >
           <div
             className={styles.metadata}
           >{`{"config":{},"type":"Button","nodeName":"Button","children":["a536778f-1449-4dab-b1ed-24cd95fc9f10","53a120ee-30dd-4a1a-8ca4-3b1f8101747f","0d27cb47-31ee-452c-9680-cddaab84c12e","0ad20d14-8ef7-4c1b-9a0e-cfffe56eb62e","297e7533-f85c-444c-860f-64e814788222","9d0b6289-9acc-4653-80a8-88103365fb1b","dea5ad68-77ad-4229-b046-a2294bace065","be316f99-4913-4705-93be-b87d4f35f902"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-18T01:12:32.975Z"}`}</div>
           <div className={styles.area} />
-          <div className={styles.label}>Save Changes</div>
+          <div className={styles.label}>{buttonText}</div>
           <div className={styles.icon}>
             <div
               className={styles.metadata1}
@@ -51,12 +76,12 @@ const EditProfilePage: FunctionComponent = () => {
             </div>
           </div>
         </button>
-        <button className={styles.button1}>
+        <button className={styles.button1}style = {{backgroundColor: buttonColor2}}onClick = {handleB2}>
           <div
             className={styles.metadata}
           >{`{"config":{},"type":"Button","nodeName":"Button","children":["a536778f-1449-4dab-b1ed-24cd95fc9f10","53a120ee-30dd-4a1a-8ca4-3b1f8101747f","0d27cb47-31ee-452c-9680-cddaab84c12e","0ad20d14-8ef7-4c1b-9a0e-cfffe56eb62e","297e7533-f85c-444c-860f-64e814788222","9d0b6289-9acc-4653-80a8-88103365fb1b","dea5ad68-77ad-4229-b046-a2294bace065","be316f99-4913-4705-93be-b87d4f35f902"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-18T01:12:32.975Z"}`}</div>
           <div className={styles.area} />
-          <div className={styles.label1}>Cancel</div>
+          <div className={styles.label1}>{buttonText2}</div>
           <div className={styles.icon2}>
             <div
               className={styles.metadata1}

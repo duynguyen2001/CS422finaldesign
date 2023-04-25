@@ -3,6 +3,9 @@ import PaymentConfirmation from "../components/PaymentConfirmation";
 import PortalPopup from "../components/PortalPopup";
 import Contact from "../components/Contact";
 import "./ProfilePage.css";
+import { useNavigate } from "react-router-dom";
+
+
 const ProfilePage = () => {
   const [isPaymentConfirmationOpen, setPaymentConfirmationOpen] =
     useState(false);
@@ -50,6 +53,12 @@ const ProfilePage = () => {
     // Please sync "Meetings" to the project
   }, []);
 
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+      let path = '../edit-profile'; 
+      navigate(path);
+  }
+
   return (
     <>
       <div className="profile-page">
@@ -91,7 +100,7 @@ const ProfilePage = () => {
           <p className="senior-software-enginneer">Senior Software Engineer</p>
         </a>
         <a className="area-of-interest">Area of Interest: Software</a>
-        <button className="button">
+        <button className="button" onClick={routeChange}>
           <div className="metadata27">{`{"config":{},"type":"Button","nodeName":"Button","children":["0baa658a-9f8c-410d-82fb-2422a63aca46","643d1019-ea92-499b-8075-d80c98c1f3cd","20756fa9-be32-4869-bd70-fbcff2345c8a","2b9f6d81-e9b1-4e70-b951-265206a7c200","836a85bc-6030-4ceb-88f6-dd940d52378f","6377f2c1-11e3-4fb2-be02-cb399a3e95f0","cc1c8e3c-d71a-4239-aa79-07c7239e48d8","e7262d95-8c2c-424d-a4c5-fab785288741"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-17T23:13:17.848Z"}`}</div>
           <div className="label3">Edit Profile</div>
           <div className="icon11">

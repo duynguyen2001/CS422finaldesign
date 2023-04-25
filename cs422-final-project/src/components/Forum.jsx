@@ -1,14 +1,11 @@
-import { useState, useCallback } from "react";
-// import Header from "./Header";
+import { useState } from "react";
 import BlogPosts from "./BlogPosts";
 import HeaderComponent from "./HeaderComponent";
 import "./Forum.css";
-import styles from './LandingPage.module.css';
 import { FullFooter } from "./FooterComponent";
+import Filter from "./Filter";
 
 const Tabs = ({ setTopic, topic }) => {
-    console.log("topic is: ", topic);
-    console.log("setTopic is: ", setTopic);
     return (
         <div style={{ zIndex: 30000 }}>
             <button
@@ -55,10 +52,28 @@ const Forum = () => {
     const onPostContainerClick = () => {
         console.log("clicked");
     }
+    const filters = ["Computer Science", "Gymnasium", "Agronomy",
+    "Horticulture",
+    "Animal Science",
+    "Forestry",
+    "Environmental Science"];
+    const handleFilterChange = (selectedFilters) => {
+        console.log(selectedFilters);
+    };
+    
     return (
         <div>
         <div>
             <HeaderComponent />
+            <div style={{
+                position: "absolute",
+                top: "100vh",
+                width: "25%",
+            }}>
+                <Filter filters={filters} handleFilterChange={handleFilterChange}/>
+            
+
+            </div>
             <div>
                 <h1
                     style={{

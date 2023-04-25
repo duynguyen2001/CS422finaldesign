@@ -4,6 +4,7 @@ import HeaderComponent from "./HeaderComponent";
 import "./Forum.css";
 import { FullFooter } from "./FooterComponent";
 import Filter from "./Filter";
+import { useNavigate } from "react-router";
 
 const Tabs = ({ setTopic, topic }) => {
     return (
@@ -49,8 +50,9 @@ const Tabs = ({ setTopic, topic }) => {
 
 const Forum = () => {
     const [topic, setTopic] = useState("All");
+    const navigate = useNavigate()
     const onPostContainerClick = () => {
-        
+        navigate("/blog-detail")
 
     }
     const filters = ["Computer Science", "Gymnasium", "Agronomy",
@@ -76,8 +78,6 @@ const Forum = () => {
                 width: "25%",
             }}>
                 <Filter filters={filters} handleFilterChange={handleFilterChange}/>
-            
-
             </div>
             <div>
                 <h1

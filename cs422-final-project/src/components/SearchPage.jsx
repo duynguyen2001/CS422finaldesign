@@ -3,8 +3,9 @@ import FooterStrip from './FooterComponent';
 import HeaderComponent from './HeaderComponent';
 import TinnCannLogo from './TinnCannLogo';
 import SearchBarComponent from './SearchBarComponent.jsx';
-import FilterComponent from './FilterComponent';
+import Filter from './Filter';
 import PersonCard from './PersonCard';
+import { useNavigate } from 'react-router';
 
 import "./SearchPage.css";
 
@@ -38,6 +39,18 @@ function SearchPage() {
     rating: ratingImage,
   };
 
+  const filters = ["Computer Science", "Gymnasium", "Agronomy",
+    "Horticulture",
+    "Animal Science",
+    "Forestry",
+    "Environmental Science"];
+    const handleFilterChange = (selectedFilters) => {
+        console.log(selectedFilters);
+    };
+
+    
+
+
   return (
     <div className="search-page">
       
@@ -49,8 +62,8 @@ function SearchPage() {
       </div>
       <div className="content-container">
       <div className="content-grid"> {/* Use the new .content-grid class */}
-        <div className="filter-container"> {/* Use the new .filter-container class */}
-          <FilterComponent />
+        <div> 
+          <Filter filters={filters} handleFilterChange={handleFilterChange}/>
         </div>
         <div className="person-cards-container">
           <PersonCard {...Person1} />
@@ -61,7 +74,7 @@ function SearchPage() {
   </div>
 </div>
 
-      <div className="footer-strip">
+      <div>
         <FooterStrip />
       </div>
     </div>

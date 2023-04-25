@@ -50,7 +50,8 @@ const Tabs = ({ setTopic, topic }) => {
 const Forum = () => {
     const [topic, setTopic] = useState("All");
     const onPostContainerClick = () => {
-        console.log("clicked");
+        
+
     }
     const filters = ["Computer Science", "Gymnasium", "Agronomy",
     "Horticulture",
@@ -59,8 +60,12 @@ const Forum = () => {
     "Environmental Science"];
     const handleFilterChange = (selectedFilters) => {
         console.log(selectedFilters);
+        if (selectedFilters.length > 0) {
+            setTopic("Networking")
+        }
     };
     
+  const [jsonData, setJsonData] = useState([]);
     return (
         <div>
         <div>
@@ -130,6 +135,8 @@ const Forum = () => {
                     <BlogPosts
                         topic={topic}
                         onPostContainerClick={onPostContainerClick}
+                        jsonData={jsonData}
+                        setJsonData={setJsonData}
                     />
                 </div>
             </div>

@@ -1,17 +1,13 @@
 import React from "react";
 import HeaderComponent from "./HeaderComponent";
 import MeetingComponent from "./MeetingComponent";
-import ProgressBar from "./ProgressBar";
+// import ProgressBar from "./ProgressBar";
 import FooterStrip from "./FooterComponent";
 import personImage from './Image/mark.jpg';
 import personImage2 from './Image/Bill_gates.jpg'
 import personImage3 from './Image/Elon_musk.png'
 import './VCPage.css'
 import EmptyCard from './EmptyCard';
-
-
-
-
 
 const VCPage = ({onZoomClick})=>{
 return (

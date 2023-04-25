@@ -5,6 +5,7 @@
     width: 100%;
     padding: 10px;
     background-color: #f2f4f8;
+    height: 60px;
   }
   
   .logo {
@@ -30,6 +31,8 @@
   
   .buttons {
     display: flex;
+    right: 10px;
+    top: 10px
   }
   
   .button {
@@ -42,7 +45,6 @@
     border-radius: 24px;
     padding: 10px 30px;
     cursor: pointer;
-    margin-left: 10px;
   }
   
   .button:focus {

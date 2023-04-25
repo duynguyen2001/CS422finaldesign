@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchPage from './components/SearchPage';
 import BookingPage from './components/BookingPage';
 import BookingHistory from './components/BookingHistory';
-import MessagePage from './pages/MessagePage';
+// import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
 import VCPage from './components/VCPage';
@@ -23,7 +23,6 @@ function App() {
           <Route path="search" element={<SearchPage />} />
           <Route path="booking" element={<BookingPage />} />
           <Route path="booking-history" element={<BookingHistory />} />
-          <Route path="message" element={<MessagePage />} />
           <Route path="feedback" element={<FeedbackPage />} />
           <Route path="video-call" element={<VideoCall />} />
           <Route path="payment" element={<PaymentPage />} />

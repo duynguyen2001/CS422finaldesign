@@ -3,6 +3,8 @@ import "./HeaderComponent.css";
 import { useNavigate } from "react-router-dom";
 import SignIn from "./SignIn";
 
+
+
 const TabItem = ({ label, onClick }) => {
     const currentTab = window.location.pathname;
     if (label === "Home" && currentTab === "/") {
@@ -66,7 +68,11 @@ const Button = ({ label, onClick }) => (
 
 const HeaderComponent = () => {
     const handleButtonClick = (label) => {
-        console.log(`${label} button clicked`);
+        if(label === "Sign In"){
+            navigate("/signin");
+        } else if (label === "Conntact"){
+            navigate("/contact")
+        }
     };
     const navigate = useNavigate();
     const [showLogin, setShowLogin] = React.useState(false);
@@ -112,11 +118,11 @@ const HeaderComponent = () => {
             <div>
                 <Button
                     label="Sign in"
-                    onClick={() => handleButtonClick("Sign in")}
+                    onClick={handleButtonClick("Sign in")}
                 />
                 <Button
                     label="Contact"
-                    onClick={() => handleButtonClick("Contact")}
+                    onClick={handleButtonClick("Contact")}
                 />
             </div>
             {showLogin && (<SignIn/>)}

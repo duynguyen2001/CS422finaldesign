@@ -13,7 +13,7 @@ function BookingPage(){
         <BookingPersonComponent className="booking-person" />
         <Calendar className="calendar-component" />
       </div>
-      <div className="footer-strip">
+      <div>
         <FooterStrip />
       </div>
     </div>

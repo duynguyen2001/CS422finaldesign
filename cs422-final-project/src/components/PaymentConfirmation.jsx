@@ -48,13 +48,13 @@ const PaymentConfirmation = ({ onClose }) => {
             <img className="icon" alt="" src="/icon.svg" />
           </div>
         </div>
-        <div className="circle-button-sizemediumst">
+        {/* <div className="circle-button-sizemediumst">
           <div className="metadata4">{`{"config":{"STYLE":"STYLE2"},"type":"CircleButton","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.447Z","nodeName":"Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]"}`}</div>
           <div className="icon-iconfeatherxsizemed">
             <div className="metadata4">{`{"config":{"STATE":"DEFAULT","STYLE":"STYLE2","ICON":"feather/x"},"type":"Icon","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.441Z","nodeName":"Icon [ICON=feather/x][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]"}`}</div>
             <img className="icon1" alt="" src="/icon1.svg" />
           </div>
-        </div>
+        </div> */}
         <div className="icon-iconfeathermap-pinsi">
           <div className="metadata4">{`{"config":{"SIZE":"LARGE","ICON":"feather/map-pin"},"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.457Z","type":"Icon","nodeName":"Icon [ICON=feather/map-pin][SIZE=LARGE][STYLE=STYLE1]"}`}</div>
           <img className="icon2" alt="" src="/icon2.svg" />

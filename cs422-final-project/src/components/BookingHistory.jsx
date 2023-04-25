@@ -69,6 +69,7 @@ function BookingHistory() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        width:"100%",
         overflowY: "auto", // Add this line to enable vertical scrolling
         maxHeight: "400px" // Add this line to limit the height of the container
       }}>
@@ -84,9 +85,11 @@ function BookingHistory() {
   
       </div>
       <div >
-        <FooterStrip />
+      
       </div>
+      <FooterStrip />
     </div>
+    
   );
 }
 

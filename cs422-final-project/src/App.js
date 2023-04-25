@@ -13,6 +13,7 @@ import EditProfilePage from './components/EditProfilePage';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       {/* <BookingPage /> */}
       {/* <EditProfilePage /> */}
       <PaymentPage />
+      
       
     </div>
   );

@@ -11,8 +11,7 @@ const SignIn = ({ onClose }) => {
 
     return (
         <div
-            className={styles.signIn}
-            style={{ zIndex: 200000, position: "absolute", top: 200000 }}
+            style={{ zIndex: 20000, position: "absolute", top: 0 }}
         >
             <div className={styles.signIn1}>
                 <div className={styles.cardDisplayElementsdefault}></div>
@@ -191,7 +190,8 @@ const SignIn = ({ onClose }) => {
                 </div>
                 <b className={styles.newUserTagh6}>New user?</b>
                 <b className={styles.titleTagh4}>Sign In</b>
-                <button className={styles.circleButtonSizemediumst4}>
+                <button className={styles.circleButtonSizemediumst4}
+                            onClick={() => navigate("/")}>
                     <div className={styles.iconIconfeathertwittersi}>
                         <img
                             className={styles.icon7}

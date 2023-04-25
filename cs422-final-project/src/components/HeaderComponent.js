@@ -2,9 +2,11 @@ import React from "react";
 import "./HeaderComponent.css";
 import { useNavigate } from "react-router-dom";
 import SignIn from "./SignIn";
+import Contact from "./Contact";
 
 const TabItem = ({ label, onClick }) => {
     const currentTab = window.location.pathname;
+    
     if (label === "Home" && currentTab === "/") {
         return (
             <div
@@ -64,6 +66,8 @@ const Button = ({ label, onClick }) => (
 );
 
 const HeaderComponent = () => {
+
+    
     const handleButtonClick = (label) => {
         if (label === "Sign In") {
             navigate("/signin");
@@ -74,6 +78,11 @@ const HeaderComponent = () => {
     const navigate = useNavigate();
     const [showLogin, setShowLogin] = React.useState(false);
     const [showContact, setShowContact] = React.useState(false);
+
+    const routeChange = () =>{ 
+        let path = '../signin'; 
+        navigate(path);
+    }
 
     const handleTabClick = (label) => {
         console.log(`${label} tab clicked`);
@@ -86,10 +95,9 @@ const HeaderComponent = () => {
         } else if (label === "Search Experts") {
             navigate("/search");
         } else if (label === "Sign in") {
-            console.log("Sign in clicked");
-            showLogin ? setShowLogin(false) : setShowLogin(true);
+            navigate("/signin");
         } else if (label === "Contact") {
-            showContact ? setShowContact(false) : setShowContact(true);
+            setShowContact(!showContact)
         }
     };
 
@@ -114,17 +122,12 @@ const HeaderComponent = () => {
                 />
             </div>
             <div>
-                <Button
-                    label="Sign in"
-                    onClick={handleButtonClick("Sign in")}
-                />
-                <Button
-                    label="Contact"
-                    onClick={handleButtonClick("Contact")}
-                />
+                <button
+                    onClick={() => handleTabClick("Sign in")}
+                >Sign in</button>
             </div>
+            {showLogin && <SignIn onClose={navigate("/")}/>}
         </div>
-            {showLogin && <SignIn />}
         </div>
         
     );

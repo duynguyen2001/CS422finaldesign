@@ -11,17 +11,17 @@ const BlogPostChoice = ({
 }) => {
     return (
         <div className={styles.postContainer}>
-            <img className={styles.backgroundShape2} alt={imglink} src={imglink}/>
-            <div>
-                <div className={styles.post} >
-                    <b className={styles.categoryTaguiS}>
-                        {category} | {date} | By {author}
-                    </b>
-                    <br />
-                    <b className={styles.postTitleTagh5}>{title}</b>
-                    <br />
-                    <div className={styles.textTagp}>{content}</div>
-                </div>
+            <img className={styles.image} alt={imglink} src={imglink} />
+            <div className={styles.post}>
+                <b className={styles.categoryTaguiS}>
+                    {category} | {date} | By {author}
+                </b>
+                <br />
+                <b className={styles.postTitleTagh5}>{title}</b>
+                <br />
+                <b className={styles.textTagp}>
+                    <text>{content}</text>
+                </b>
             </div>
         </div>
     );

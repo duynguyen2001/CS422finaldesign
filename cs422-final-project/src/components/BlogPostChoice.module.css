@@ -2,11 +2,14 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-items: left;
+    align-items: top;
     width: 'inherit';
     margin-bottom: 20px;
     cursor: pointer;
     padding:50;
+    margin-left: 15px;
+    margin-right: 15px;
+
   }
   .postContainer {
     display: flex;
@@ -15,7 +18,7 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding: 4;
+    padding-top: 30px;
     margin: 4;
   }
   .postTitleTagh5 {
@@ -29,6 +32,7 @@
   
   .textTagp {
     display: inline-block;
+    font-size: 18px;
   }
   
   .categoryTaguiS {
@@ -38,4 +42,9 @@
     font-family: var(--font-noto-sans);
   }
   
-  
+  .image {
+    width: 300px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }

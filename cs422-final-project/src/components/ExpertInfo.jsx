@@ -19,8 +19,8 @@ const ExpertInfo = ({ image, name, title, price, description, rating, review1, r
         <div className="picture-buttons">
             <img src={image} alt={name} className="person-image" />
             <p>Rating: {rating}</p>
-            <button label="Send Message" onClick={routeChange}/>
-            <button label="Book" onClick = {routeChange2}/>
+            <button label="Send Message" onClick={routeChange}>Send Message</button>
+            <button label="Book" onClick = {routeChange2}>Book</button>
         </div>
       <div className="person-info">
         <h3>{name}</h3>

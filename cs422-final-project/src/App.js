@@ -6,6 +6,8 @@ import BookingHistory from './components/BookingHistory';
 import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
+import VCPage from './components/VCPage';
+import Message from './components/Message';
 import Forum from './components/Forum';
 import PaymentPage from './components/PaymentPage';
 import EditProfilePage from './components/EditProfilePage';
@@ -30,6 +32,7 @@ function App() {
           <Route path="forum" element={<Forum />} />
         </Routes>
       </BrowserRouter>
+
     </div>
   );
 }

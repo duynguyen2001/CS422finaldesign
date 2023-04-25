@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: top;
+    width: 100%;
     width: 'inherit';
     margin-bottom: 20px;
     cursor: pointer;
@@ -26,6 +27,7 @@
     font-size: var(--font-size-7xl);
     letter-spacing: 0.42px;
     line-height: 35px;
+    align-self: left;
     font-family: var(--font-roboto-condensed);
     height: 40px;
   }

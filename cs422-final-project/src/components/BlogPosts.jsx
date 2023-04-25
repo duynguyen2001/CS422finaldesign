@@ -41,8 +41,8 @@ function BlogPosts({ topic, onPostContainerClick }) {
       style={{
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
+        alignItems: "left",
+        justifyContent: "left",
         content: "left",
       }}
     >
@@ -69,6 +69,9 @@ function BlogPosts({ topic, onPostContainerClick }) {
                 className={
                   currentPage === pageNumber + 1 ? "active" : undefined
                 }
+                style={{backgroundColor: "#4525f2",
+                color: "white",
+              marginTop: "10px",}}
               >
                 {pageNumber + 1}
               </button>

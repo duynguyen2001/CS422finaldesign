@@ -10,7 +10,7 @@ const BlogPostChoice = ({
     imglink,
 }) => {
     return (
-        <div className={styles.postContainer}>
+        <div style={{alignContent:"left", justifyContent:"left"}}className={styles.postContainer}>
             <img className={styles.image} alt={imglink} src={imglink} />
             <div className={styles.post}>
                 <b className={styles.categoryTaguiS}>

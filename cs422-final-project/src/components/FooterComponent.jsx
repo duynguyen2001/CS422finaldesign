@@ -59,4 +59,20 @@ const FooterStrip = () => (
   </svg>
 );
 
+export const FullFooter = ({fromTop}) => {
+  return (
+    <div style={{ backgroundColor: "#4525f2", color: "#b4a8f9", textAlign: "center", padding: "20px 0", position: "absolute",  width: "100%", top: fromTop,  }}>
+      <p>&copy; 2023 TinnCann. All rights reserved.</p>
+      <div>
+        <a href="https://www.instagram.com"><i className="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.twitter.com"><i className="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.facebook.com"><i className="fab fa-facebook fa-2x"></i></a>
+        <a href="mailto:info@tinncann.com"><i className="far fa-envelope fa-2x"></i></a>
+      </div>
+      <h4>TinnCann</h4>
+    </div>
+  );
+};
+
+
 export default FooterStrip;

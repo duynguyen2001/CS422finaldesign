@@ -8,8 +8,6 @@ import { useNavigate } from "react-router-dom";
 
 const Message = () => {
 
-
-
     const Expert = {
         image: billImage,
         name: 'Bill Gates',

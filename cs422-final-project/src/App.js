@@ -30,6 +30,8 @@ function App() {
           <Route path="edit-profile" element={<EditProfilePage />} />
           <Route path="profile" element={<ProfilePage />} />
           <Route path="forum" element={<Forum />} />
+          <Route path="vc" element={<VCPage />} />
+          <Route path="message" element={<Message />} />
         </Routes>
       </BrowserRouter>
 

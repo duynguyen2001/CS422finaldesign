@@ -12,7 +12,7 @@ const SignIn = ({ onClose }) => {
     return (
         <div
             className={styles.signIn}
-            style={{ zIndex: 10000, position: "absolute" }}
+            style={{ zIndex: 200000, position: "absolute", top: 200000 }}
         >
             <div className={styles.signIn1}>
                 <div className={styles.cardDisplayElementsdefault}></div>

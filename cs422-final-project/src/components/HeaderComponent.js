@@ -3,8 +3,6 @@ import "./HeaderComponent.css";
 import { useNavigate } from "react-router-dom";
 import SignIn from "./SignIn";
 
-
-
 const TabItem = ({ label, onClick }) => {
     const currentTab = window.location.pathname;
     if (label === "Home" && currentTab === "/") {
@@ -59,7 +57,6 @@ const TabItem = ({ label, onClick }) => {
     );
 };
 
-
 const Button = ({ label, onClick }) => (
     <button className="button-header" onClick={onClick}>
         {label}
@@ -68,10 +65,10 @@ const Button = ({ label, onClick }) => (
 
 const HeaderComponent = () => {
     const handleButtonClick = (label) => {
-        if(label === "Sign In"){
+        if (label === "Sign In") {
             navigate("/signin");
-        } else if (label === "Conntact"){
-            navigate("/contact")
+        } else if (label === "Conntact") {
+            navigate("/contact");
         }
     };
     const navigate = useNavigate();
@@ -92,12 +89,13 @@ const HeaderComponent = () => {
             console.log("Sign in clicked");
             showLogin ? setShowLogin(false) : setShowLogin(true);
         } else if (label === "Contact") {
-          showContact ? setShowContact(false) : setShowContact(true);
+            showContact ? setShowContact(false) : setShowContact(true);
         }
     };
 
     return (
-        <div className="header-container">
+        <div>
+            <div className="header-container">
             <div className="logo">TinnCann</div>
             <div className="tabs">
                 <TabItem label="Home" onClick={() => handleTabClick("Home")} />
@@ -125,8 +123,10 @@ const HeaderComponent = () => {
                     onClick={handleButtonClick("Contact")}
                 />
             </div>
-            {showLogin && (<SignIn/>)}
         </div>
+            {showLogin && <SignIn />}
+        </div>
+        
     );
 };
 

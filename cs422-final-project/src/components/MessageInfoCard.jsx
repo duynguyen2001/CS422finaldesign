@@ -15,9 +15,9 @@ const MessageInfo = ({ image, name }) => {
     };
 
     return (
-        <div className="expert-info">
+        <div className="exp-info">
             <h3>{name}</h3>
-            <div className="picture-buttons">
+            <div className="p-b">
                 <img src={image} alt={name} className="person-image" />
                 <button className="Booking" onClick={routeChange}>
                     View Details of Booking

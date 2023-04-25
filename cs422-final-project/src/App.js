@@ -13,7 +13,6 @@ import EditProfilePage from './components/EditProfilePage';
 import ProfilePage from './components/ProfilePage';
 import LandingPage from './components/LandingPage';
 import SignIn from './components/SignIn';
-import BlogDetail from './components/BlogDetail';
 import ExpertPage from './components/ExpertPage';
 import Contact from './components/Contact';
 function App() {
@@ -33,7 +32,6 @@ function App() {
           <Route path="forum" element={<Forum />} />
           <Route path="vc" element={<VCPage />} />
           <Route path="message" element={<Message />} />
-          <Route path="blog-detail" element={<BlogDetail/>} />
           <Route path="signin" element={<SignIn />} />
           <Route path="*" element={<LandingPage />} />
           <Route path="expert" element={<ExpertPage />} />

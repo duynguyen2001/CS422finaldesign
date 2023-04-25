@@ -2,6 +2,7 @@ import { FunctionComponent, useState, useCallback } from "react";
 import Contact from "./Contact";
 import PortalPopup from "./PortalPopup";
 import styles from "./EditProfilePage.module.css";
+import HeaderComponent from "./HeaderComponent";
 
 const EditProfilePage: FunctionComponent = () => {
   const [isContactPopupOpen, setContactPopupOpen] = useState(false);
@@ -166,108 +167,7 @@ const EditProfilePage: FunctionComponent = () => {
             placeholder="Area of Interest: Cooking"
           />
         </div>
-        <div className={styles.header}>
-          <div
-            className={styles.metadata12}
-          >{`{"config":{},"nodeName":"Header","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.847Z"}`}</div>
-          <h1 className={styles.titleTagh6}>TinnCann</h1>
-          <label className={styles.tabs}>
-            <div
-              className={styles.metadata13}
-            >{`{"config":{},"type":"Tabs","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.791Z","nodeName":"Tabs"}`}</div>
-            <div className={styles.placeholderTabItem}>
-              <div
-                className={styles.metadata6}
-              >{`{"config":{},"nodeName":"[PLACEHOLDER] Tab Item","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.679Z"}`}</div>
-              <div className={styles.area3}>
-                <div
-                  className={styles.metadata6}
-                >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.672Z"}`}</div>
-                <div className={styles.bar} />
-              </div>
-              <div className={styles.label4}>Label</div>
-            </div>
-            <div className={styles.tabItemStatedefault}>
-              <div
-                className={styles.metadata13}
-              >{`{"config":{},"type":"TabItem","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.718Z","nodeName":"Tab Item [STATE=DEFAULT]"}`}</div>
-              <div className={styles.area4}>
-                <div
-                  className={styles.metadata6}
-                >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.706Z"}`}</div>
-                <div className={styles.bar} />
-              </div>
-              <button className={styles.label5} onClick={onLabelClick}>
-                Forum
-              </button>
-            </div>
-            <button
-              className={styles.tabItemStatedefault1}
-              onClick={onTabItemSTATEDEFAULT1Click}
-            >
-              <div
-                className={styles.metadata18}
-              >{`{"config":{},"type":"TabItem","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:37:01.130Z","nodeName":"Tab Item [STATE=DEFAULT]"}`}</div>
-              <div className={styles.area5}>
-                <div
-                  className={styles.metadata}
-                >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:37:01.098Z"}`}</div>
-                <div className={styles.bar} />
-              </div>
-              <div className={styles.label6}>Account</div>
-            </button>
-            <button className={styles.tabItemStatedefault2}>
-              <div
-                className={styles.metadata18}
-              >{`{"config":{},"type":"TabItem","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.759Z","nodeName":"Tab Item [STATE=DEFAULT]"}`}</div>
-              <div className={styles.area5}>
-                <div
-                  className={styles.metadata}
-                >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.744Z"}`}</div>
-                <div className={styles.bar} />
-              </div>
-              <div className={styles.label7} onClick={onLabelText6Click}>
-                Search Experts
-              </div>
-            </button>
-            <div className={styles.tabItemStateactive}>
-              <div
-                className={styles.metadata13}
-              >{`{"config":{"STATE":"ACTIVE"},"type":"TabItem","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.778Z","nodeName":"Tab Item [STATE=ACTIVE]"}`}</div>
-              <div className={styles.area7}>
-                <div
-                  className={styles.metadata6}
-                >{`{"config":{},"nodeName":"Area","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.765Z"}`}</div>
-                <div className={styles.placementAreaStateactive} />
-                <div className={styles.barStateactive} />
-              </div>
-              <button className={styles.label5} onClick={onLabel1Click}>
-                Home
-              </button>
-            </div>
-          </label>
-          <button
-            className={styles.buttonDisplayElementslabel}
-            onClick={openContactPopup}
-          >
-            <div
-              className={styles.metadata}
-            >{`{"config":{},"type":"Button","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.826Z","nodeName":"Button [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
-            <div className={styles.label9}>Contact</div>
-            <div className={styles.iconDisplayElementslabel}>
-              <div
-                className={styles.metadata}
-              >{`{"config":{"STATE":"DEFAULT"},"type":"Icon","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.814Z","nodeName":"Icon [DISPLAY_ELEMENTS=Label][ICON=feather/heart][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
-              <img className={styles.icon8} alt="" src="/icon4.svg" />
-            </div>
-          </button>
-          <div className={styles.iconIconfeathersearchsiz}>
-            <div
-              className={styles.metadata6}
-            >{`{"config":{"SIZE":"LARGE","ICON":"feather/search"},"type":"Icon","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:21:51.838Z","nodeName":"Icon [ICON=feather/search][SIZE=LARGE][STYLE=STYLE1]"}`}</div>
-            <img className={styles.icon9} alt="" src="/icon5.svg" />
-          </div>
-        </div>
+        <HeaderComponent />
         <footer className={styles.footerStrip}>
           <div
             className={styles.metadata27}

@@ -11,8 +11,7 @@ const shuffleArray = (array) => {
     return array;
   };
   
-function BlogPosts({ topic, onPostContainerClick }) {
-  const [jsonData, setJsonData] = React.useState([]);
+function BlogPosts({ topic, onPostContainerClick,jsonData, setJsonData }) {
   const [currentPage, setCurrentPage] = React.useState(1);
   const [postsPerPage, setPostsPerPage] = React.useState(5);
 

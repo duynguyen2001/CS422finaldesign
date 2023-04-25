@@ -76,8 +76,6 @@ const Forum = () => {
                 width: "25%",
             }}>
                 <Filter filters={filters} handleFilterChange={handleFilterChange}/>
-            
-
             </div>
             <div>
                 <h1

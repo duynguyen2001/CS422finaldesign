@@ -1,8 +1,8 @@
 import { useState, useCallback } from "react";
-import Contact from "../components/Contact";
-import PortalPopup from "../components/PortalPopup";
+import Contact from "./Contact";
+import PortalPopup from "./PortalPopup";
 import styles from "./FeedbackPage.module.css";
-import HeaderComponent from "../components/HeaderComponent";
+import HeaderComponent from "./HeaderComponent";
 
 
 const FeedbackPage = () => {

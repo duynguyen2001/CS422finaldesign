@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchPage from './components/SearchPage';
 import BookingPage from './components/BookingPage';
 import BookingHistory from './components/BookingHistory';
-import FeedbackPage from './pages/FeedbackPage';
+import FeedbackPage from './components/FeedbackPage';
 import VCPage from './components/VCPage';
 import Message from './components/Message';
 import Forum from './components/Forum';

@@ -77,7 +77,7 @@
 .label {
   position: absolute;
   top: calc(50% - 11px);
-  left: calc(50% - 56px);
+  /* left: calc(50% - 56px); */
   font-weight: 600;
 }
 .label-wrapper {

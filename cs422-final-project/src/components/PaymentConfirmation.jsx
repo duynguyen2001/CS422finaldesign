@@ -80,7 +80,7 @@ const PaymentConfirmation = ({ onClose }) => {
         />
         <div className="mobile1">7:30AM - 8:30AM Jan 03, 2022</div>
         <img className="bill-gates-icon" alt="" src="/bill-gates@2x.png" />
-        <div className="button-display-elementslabel1">
+        <div className="button-display-elementslabel1" onClick={routeChange2}>
           <div className="metadata3">{`{"config":{},"type":"Button","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.345Z","nodeName":"Button [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
           <div className="label-wrapper">
             <div className="label1">Video Call</div>

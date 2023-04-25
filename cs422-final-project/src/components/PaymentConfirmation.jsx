@@ -21,6 +21,7 @@ const PaymentConfirmation = ({ onClose }) => {
 
   return (
     <div className="payment-confirmation">
+      <HeaderComponent />
       <div className="sign-up">
         <div className="metadata">{`{"config":{},"nodeName":"Sign Up","type":"Group","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.493Z"}`}</div>
         <div className="card-display-elementsdefault">

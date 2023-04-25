@@ -59,6 +59,11 @@ const ProfilePage = () => {
       navigate(path);
   }
 
+  const routeChange2 = () =>{ 
+    let path = '../booking-history'; 
+    navigate(path);
+}
+
   return (
     <>
       <div className="profile-page">
@@ -192,7 +197,7 @@ const ProfilePage = () => {
           </div>
           <b className="label10">Label</b>
         </label>
-        <button className="button1" onClick={onButton1Click}>
+        <button className="button1" onClick={routeChange2}>
           <div className="metadata27">{`{"config":{},"type":"Button","nodeName":"Button","children":["9280995a-deea-4a67-986d-8b1ceea30d3c","359d505c-6dc7-47fc-926d-8f0f0b9b122b","81237356-d1f1-4029-9252-e6e3e2285bce","ab62af0a-89c3-4445-8208-4f3d7fb59f3d","8fcac690-51bb-42eb-9d96-99c77f9aa962","bde4130e-89bf-4071-b14d-c7cbb7583b2d","a5d17bde-a1c9-4867-b561-897d8969f4b4","6139e4b8-ccce-446d-94b3-83a5ec63461a"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-18T01:45:34.313Z"}`}</div>
           <div className="label11">Check Bookings</div>
           <div className="icon17">

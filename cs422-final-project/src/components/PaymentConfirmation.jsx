@@ -1,9 +1,22 @@
 import { useCallback } from "react";
 import "./PaymentConfirmation.css";
+import { useNavigate } from "react-router-dom";
+
 const PaymentConfirmation = ({ onClose }) => {
   const onButtonDISPLAYELEMENTSLabelContainerClick = useCallback(() => {
     // Please sync "Message Page" to the project
   }, []);
+
+  let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        let path = '../message'; 
+        navigate(path);
+    }
+
+    const routeChange2 = () =>{ 
+      let path = '../vc'; 
+      navigate(path);
+  }
 
   return (
     <div className="payment-confirmation">
@@ -24,7 +37,7 @@ const PaymentConfirmation = ({ onClose }) => {
         </div>
         <div
           className="button-display-elementslabel"
-          onClick={onButtonDISPLAYELEMENTSLabelContainerClick}
+          onClick={routeChange}
         >
           <div className="metadata3">{`{"config":{},"type":"Button","__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-16T01:22:37.345Z","nodeName":"Button [DISPLAY_ELEMENTS=Label][SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE1]"}`}</div>
           <div className="label-wrapper">

@@ -1,5 +1,7 @@
 import { FunctionComponent, useCallback } from "react";
 import styles from "./PaymentPage.module.css";
+import { useNavigate } from "react-router-dom";
+
 const PaymentPage: FunctionComponent = () => {
   const onTabItemSTATEDEFAULTClick = useCallback(() => {
     // Please sync "Blog" to the project
@@ -16,6 +18,12 @@ const PaymentPage: FunctionComponent = () => {
   const onButtonDISPLAYELEMENTSLabelClick = useCallback(() => {
     // Please sync "Contact" to the project
   }, []);
+
+  let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        let path = '../payment-confirmation'; 
+        navigate(path);
+    }
 
   return (
     <div className={styles.paymentPage}>
@@ -147,7 +155,7 @@ const PaymentPage: FunctionComponent = () => {
           <img className={styles.icon3} alt="" src="/icon1.svg" />
         </button>
       </div>
-      <button className={styles.button1}>
+      <button className={styles.button1} onClick={routeChange}>
         <div
           className={styles.metadata9}
         >{`{"config":{},"type":"Button","nodeName":"Button","children":["9f2bfd3f-4095-472b-9a3f-18ed724fd8cc","768309d9-ab66-4e0f-86e8-e049b6329cde","54a53208-0170-46ce-9617-21de84ec1210","c95f27ae-7eb2-4c6a-8dff-9c9f5980b59c","3508429e-10ef-4d9b-8561-886d858def10","a1d59147-518b-4710-98cc-e019f0bb2ec9","48140d29-0530-4e6b-84bb-1d3f513090ad","9a766233-5037-4f0f-bd1d-cc5f2cbef881"],"__plugin":"Mockup","__version":"1.5.0","__lastUpdate":"2023-03-18T01:03:43.724Z"}`}</div>

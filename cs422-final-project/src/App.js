@@ -6,14 +6,15 @@ import BookingHistory from './components/BookingHistory';
 import MessagePage from './pages/MessagePage';
 import FeedbackPage from './pages/FeedbackPage';
 import VideoCall from './pages/VideoCall';
-
+import VCPage from './components/VCPage';
+import Message from './components/Message';
 import PaymentPage from './components/PaymentPage';
 
 
 function App() {
   return (
     <div className="App">
-      <FeedbackPage/>
+      <Message/>
       {/* <BookingPage /> */}
       {/* <BookingHistory /> */}
     </div>

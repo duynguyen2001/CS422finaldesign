@@ -1,0 +1,16 @@
+.card-container{
+    box-shadow: 1.5px 0px 1.5px 1.5px;
+    width:1550px;
+    height: 350px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Feedback{
+   margin-top: 100px;
+}
+
+.body{
+    margin-top: 200px;
+}

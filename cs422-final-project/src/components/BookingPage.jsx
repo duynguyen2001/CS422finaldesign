@@ -7,8 +7,9 @@ import './BookingPage.css'
 
 function BookingPage(){
     return (
-        <div className="booking-page">
+      <div>
       <HeaderComponent />
+        <div className="booking-page">
       <div className="booking-container">
         <BookingPersonComponent className="booking-person" />
         <Calendar className="calendar-component" />
@@ -16,7 +17,7 @@ function BookingPage(){
       <div>
         <FooterStrip />
       </div>
-    </div>
+    </div></div>
   );
 }
 

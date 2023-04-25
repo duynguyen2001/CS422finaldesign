@@ -83,7 +83,7 @@ function BookingHistory() {
       </div>
   
       </div>
-      <div className="footer-strip">
+      <div >
         <FooterStrip />
       </div>
     </div>

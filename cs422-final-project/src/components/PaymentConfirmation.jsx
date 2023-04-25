@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import "./PaymentConfirmation.css";
+import HeaderComponent from "./HeaderComponent";
 import { useNavigate } from "react-router-dom";
 
 const PaymentConfirmation = ({ onClose }) => {

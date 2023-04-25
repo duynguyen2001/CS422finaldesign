@@ -1,5 +1,4 @@
 import { FunctionComponent, useState, useCallback } from "react";
-import styles from "./PaymentPage.module.css";
 import FooterStrip from "./FooterComponent";
 import { useNavigate } from "react-router-dom";
 import HeaderComponent from "./HeaderComponent";
@@ -23,25 +22,25 @@ const PaymentPage: FunctionComponent = () => {
       <img src="/image-6@2x.png" alt="Your alt text here"></img>
       <h2>Name (as it appears on your card)</h2>
       <input
-        className={styles.inputField}
+        style={{width:'300px', height:'40px', padding:'5px', margin: '0px'}}
         value={inputValue}
         onChange={handleInputChange}
       ></input>
       <h2>Card number (on dashes or spaces)</h2>
       <input
-        className={styles.inputField}
+        style={{width:'300px', height:'40px', padding:'5px', margin: '0px'}}
         value={inputValue}
         onChange={handleInputChange}
       ></input>
       <h2>Expiration date</h2>
       <input
-        className={styles.inputField2}
+        style={{width:'100px', height:'40px', padding:'5px', margin: '0px'}}
         value={inputValue}
         onChange={handleInputChange}
       ></input>
       <h2>Security code</h2>
       <input
-        className={styles.inputField2}
+        style={{width:'100px', height:'40px', padding:'5px', margin: '0px'}}
         value={inputValue}
         onChange={handleInputChange}
       ></input>

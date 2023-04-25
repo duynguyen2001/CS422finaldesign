@@ -4,8 +4,11 @@ import FooterStrip from "./FooterComponent";
 import './Message.css';
 import MessageInfoCard from './MessageInfoCard';
 import billImage from './Image/Bill_gates.jpg'
+import { useNavigate } from "react-router-dom";
 
 const Message = () => {
+
+
 
     const Expert = {
         image: billImage,

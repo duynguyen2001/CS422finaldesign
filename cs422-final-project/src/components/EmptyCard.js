@@ -1,10 +1,15 @@
 // import React from "react";
 import './EmptyCard.css';
 import React, { useState } from 'react';
-
-
+import { useNavigate } from "react-router-dom";
 
 function Card({title,body}){
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        let path = '../feedback'; 
+        navigate(path);
+    }
 
     const [buttonColor, setButtonColor] = useState('orange');
     const [displayText, setDisplayText] = useState('');
@@ -26,7 +31,7 @@ function Card({title,body}){
         
         </div>
         <div className="card-body">
-           <p> {displayText} <br/><button className="Feedback">Provide Feedback</button> </p>
+           <p> {displayText} <br/><button className="Feedback"onClick = {routeChange}>Provide Feedback</button> </p>
         </div>
         
         </div>

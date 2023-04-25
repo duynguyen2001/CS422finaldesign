@@ -13,7 +13,6 @@
     "react": "^18.2.0",
     "react-calendar": "^4.2.1",
     "react-dom": "^18.2.0",
-    "react-native": "^0.71.7",
     "react-native-svg": "^13.9.0",
     "react-router": "^6.10.0",
     "react-router-dom": "^6.10.0",

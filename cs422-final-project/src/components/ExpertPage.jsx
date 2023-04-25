@@ -1,9 +1,5 @@
 import React from 'react';
-import Header from './Header';
 import HeaderComponent from './HeaderComponent';
-import TinnCannLogo from './TinnCannLogo';
-import SearchBarComponent from './SearchBarComponent.jsx';
-import FilterComponent from './FilterComponent';
 import ExpertInfo from './ExpertInfo';
 import './ExpertPage.css';
 
